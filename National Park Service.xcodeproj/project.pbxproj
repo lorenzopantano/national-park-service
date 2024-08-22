@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B44AD8762C7739D000829F59 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD8752C7739D000829F59 /* ImageLoader.swift */; };
+		B44AD8782C773A1800829F59 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD8772C773A1800829F59 /* CachedAsyncImage.swift */; };
 		B46E18552C6BB9250035CA74 /* National_Park_ServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E18542C6BB9250035CA74 /* National_Park_ServiceApp.swift */; };
 		B46E18572C6BB9250035CA74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E18562C6BB9250035CA74 /* ContentView.swift */; };
 		B46E18592C6BB9260035CA74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46E18582C6BB9260035CA74 /* Assets.xcassets */; };
@@ -14,6 +16,14 @@
 		B46E18662C6BB9260035CA74 /* National_Park_ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E18652C6BB9260035CA74 /* National_Park_ServiceTests.swift */; };
 		B46E18702C6BB9260035CA74 /* National_Park_ServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E186F2C6BB9260035CA74 /* National_Park_ServiceUITests.swift */; };
 		B46E18722C6BB9260035CA74 /* National_Park_ServiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E18712C6BB9260035CA74 /* National_Park_ServiceUITestsLaunchTests.swift */; };
+		B4AB18B52C6CB1CA00567EEE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB18B42C6CB1CA00567EEE /* HomeView.swift */; };
+		B4AB18B72C6CBE9000567EEE /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB18B62C6CBE9000567EEE /* Config.swift */; };
+		B4F449EE2C761840006B3D6B /* ParkCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F449ED2C761840006B3D6B /* ParkCardItem.swift */; };
+		B4F449F22C761B77006B3D6B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F449F12C761B77006B3D6B /* ModelData.swift */; };
+		B4F449F52C761CBB006B3D6B /* ParkCardItemUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F449F42C761CBB006B3D6B /* ParkCardItemUI.swift */; };
+		B4F449F72C762618006B3D6B /* park-data.json in Resources */ = {isa = PBXBuildFile; fileRef = B4F449F62C762618006B3D6B /* park-data.json */; };
+		B4F449F92C763033006B3D6B /* ParkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F449F82C763033006B3D6B /* ParkList.swift */; };
+		B4F449FB2C763335006B3D6B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F449FA2C763335006B3D6B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B44AD8752C7739D000829F59 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		B44AD8772C773A1800829F59 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
 		B46E18512C6BB9250035CA74 /* National Park Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "National Park Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46E18542C6BB9250035CA74 /* National_Park_ServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = National_Park_ServiceApp.swift; sourceTree = "<group>"; };
 		B46E18562C6BB9250035CA74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +56,14 @@
 		B46E186B2C6BB9260035CA74 /* National Park ServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "National Park ServiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46E186F2C6BB9260035CA74 /* National_Park_ServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = National_Park_ServiceUITests.swift; sourceTree = "<group>"; };
 		B46E18712C6BB9260035CA74 /* National_Park_ServiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = National_Park_ServiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4AB18B42C6CB1CA00567EEE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B4AB18B62C6CBE9000567EEE /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		B4F449ED2C761840006B3D6B /* ParkCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkCardItem.swift; sourceTree = "<group>"; };
+		B4F449F12C761B77006B3D6B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		B4F449F42C761CBB006B3D6B /* ParkCardItemUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkCardItemUI.swift; sourceTree = "<group>"; };
+		B4F449F62C762618006B3D6B /* park-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "park-data.json"; path = "../../../../Desktop/park-data.json"; sourceTree = "<group>"; };
+		B4F449F82C763033006B3D6B /* ParkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkList.swift; sourceTree = "<group>"; };
+		B4F449FA2C763335006B3D6B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,7 @@
 		B46E18482C6BB9250035CA74 = {
 			isa = PBXGroup;
 			children = (
+				B4F449F62C762618006B3D6B /* park-data.json */,
 				B46E18532C6BB9250035CA74 /* National Park Service */,
 				B46E18642C6BB9260035CA74 /* National Park ServiceTests */,
 				B46E186E2C6BB9260035CA74 /* National Park ServiceUITests */,
@@ -94,6 +115,9 @@
 		B46E18532C6BB9250035CA74 /* National Park Service */ = {
 			isa = PBXGroup;
 			children = (
+				B46E18872C6BBAE30035CA74 /* Resources */,
+				B46E18862C6BBAD70035CA74 /* Config */,
+				B46E187E2C6BBA2F0035CA74 /* Code */,
 				B46E18542C6BB9250035CA74 /* National_Park_ServiceApp.swift */,
 				B46E18562C6BB9250035CA74 /* ContentView.swift */,
 				B46E18582C6BB9260035CA74 /* Assets.xcassets */,
@@ -125,6 +149,132 @@
 				B46E18712C6BB9260035CA74 /* National_Park_ServiceUITestsLaunchTests.swift */,
 			);
 			path = "National Park ServiceUITests";
+			sourceTree = "<group>";
+		};
+		B46E187E2C6BBA2F0035CA74 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB18B82C6D23F300567EEE /* Components */,
+				B46E18852C6BBAA30035CA74 /* Utilities */,
+				B46E18842C6BBA9A0035CA74 /* Features */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		B46E187F2C6BBA3C0035CA74 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B4F449F32C761C89006B3D6B /* Components */,
+				B4AB18B22C6CB18900567EEE /* Model */,
+				B4AB18B12C6CB18100567EEE /* ViewModel */,
+				B4AB18B02C6CB17A00567EEE /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B46E18802C6BBA440035CA74 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		B46E18812C6BBA5E0035CA74 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		B46E18822C6BBA650035CA74 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B46E18832C6BBA870035CA74 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B46E18842C6BBA9A0035CA74 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B46E18832C6BBA870035CA74 /* Common */,
+				B46E18822C6BBA650035CA74 /* Settings */,
+				B46E18812C6BBA5E0035CA74 /* Detail */,
+				B46E18802C6BBA440035CA74 /* Find */,
+				B46E187F2C6BBA3C0035CA74 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B46E18852C6BBAA30035CA74 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B4F449FA2C763335006B3D6B /* Extensions.swift */,
+				B44AD8752C7739D000829F59 /* ImageLoader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B46E18862C6BBAD70035CA74 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB18B62C6CBE9000567EEE /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		B46E18872C6BBAE30035CA74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B4AB18B02C6CB17A00567EEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB18B42C6CB1CA00567EEE /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4AB18B12C6CB18100567EEE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B4AB18B22C6CB18900567EEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4F449F12C761B77006B3D6B /* ModelData.swift */,
+				B4F449ED2C761840006B3D6B /* ParkCardItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4AB18B82C6D23F300567EEE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B44AD8772C773A1800829F59 /* CachedAsyncImage.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B4F449F32C761C89006B3D6B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B4F449F42C761CBB006B3D6B /* ParkCardItemUI.swift */,
+				B4F449F82C763033006B3D6B /* ParkList.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F449F72C762618006B3D6B /* park-data.json in Resources */,
 				B46E185C2C6BB9260035CA74 /* Preview Assets.xcassets in Resources */,
 				B46E18592C6BB9260035CA74 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +408,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AB18B52C6CB1CA00567EEE /* HomeView.swift in Sources */,
+				B4AB18B72C6CBE9000567EEE /* Config.swift in Sources */,
 				B46E18572C6BB9250035CA74 /* ContentView.swift in Sources */,
+				B4F449F92C763033006B3D6B /* ParkList.swift in Sources */,
+				B44AD8762C7739D000829F59 /* ImageLoader.swift in Sources */,
+				B4F449FB2C763335006B3D6B /* Extensions.swift in Sources */,
+				B44AD8782C773A1800829F59 /* CachedAsyncImage.swift in Sources */,
+				B4F449F22C761B77006B3D6B /* ModelData.swift in Sources */,
+				B4F449F52C761CBB006B3D6B /* ParkCardItemUI.swift in Sources */,
+				B4F449EE2C761840006B3D6B /* ParkCardItem.swift in Sources */,
 				B46E18552C6BB9250035CA74 /* National_Park_ServiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
